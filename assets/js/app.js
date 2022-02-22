@@ -12,8 +12,7 @@
 			this.render();
 		},//data()
 		convert(){
-			let cardArr = this.numberCard.split('').reverse().map(i =>+i)
-			return cardArr;
+			return this.numberCard.split('').reverse().map(i =>+i)
 		},//convert()
 
 		render(){
